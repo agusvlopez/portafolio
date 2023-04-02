@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: #e4e4e4;
+    font-family: 'Comfortaa';
+    
+}
+
+main {
+    padding: 0 1rem ;
+    
+}
+nav {
+    background-color: #1A1A1A;
+}
+
+.nav-link {
+    color: #e4e4e4;
+  
+}
+
+.nav-item {
+      padding-right: 1rem;
+}
+
+.logoSize {
+    height: 80px;
+    width: 80px;
+    
+}
+
+.botonCurriculum {
+    border: 1px solid #e4e4e4;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+.lineaVertical {
+   
+    height: fit-content;
+    border-right: 2px solid #e4e4e4;
+}
+
+h1 {
+    font-size: 2.7rem;
+    margin: 0;
+ 
+}
+
+.nombrePortada {
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.apellidoPortada {
+    font-weight: 600;
+   
+}
+
+.descripcionPortada {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:577px) {}
+
+@media screen and (min-width:993px){}
