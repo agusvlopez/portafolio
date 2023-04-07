@@ -9,10 +9,6 @@ body {
     
 }
 
-main {
-    padding: 0 1rem ;
-    
-}
 nav {
     background-color: #1A1A1A;
 }
@@ -47,9 +43,53 @@ nav {
 h1 {
     font-size: 2.7rem;
     margin: 0;
- 
 }
 
+.liSkillsHard {
+    border: 1px solid #e4e4e4;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.liSkillsSoft {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ff26269a;
+    text-align: center;
+}
+
+.skillsIdiomaH3 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.skillsIdiomaP {
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.skillsIdiomaSpan {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 200;
+    padding-left: 1rem;
+    text-transform: none;
+
+}
 .nombrePortada {
     font-weight: 300;
     line-height: 1.8rem;
@@ -67,6 +107,32 @@ h1 {
     text-transform: uppercase;
 }
 
+.iconoMenu {
+    background-image: url(../img/icono-menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #1A1A1A;
+}
+
+.bgFooter {
+    background-color: #e4e4e4;
+}
+
+.h2Footer {
+color: #1A1A1A;
+text-align: center;
+}
+
+.pFooter {
+    color: #1A1A1A;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.iconoFooter {
+    width: 25px;
+    height: 25px;
+}
 @media screen and (min-width:577px) {}
 
 @media screen and (min-width:993px){}
