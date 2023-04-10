@@ -9,6 +9,8 @@ body {
     
 }
 
+
+
 nav {
     background-color: #1A1A1A;
 }
@@ -134,7 +136,7 @@ h3 {
 .cajaImagenCard {
     border: 0.2rem solid #ffffff;
     background-color: #e4e4e4;
-    box-shadow: 0 .5rem 1rem rgba(168, 168, 168, 0.15)
+    box-shadow: 0 .5rem 1rem rgba(168, 168, 168, 0.15);
 }
 
 .aCard:hover {
@@ -169,6 +171,24 @@ text-align: center;
 .iconoFooter {
     width: 25px;
     height: 25px;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav100 {
+    position: fixed;
+    top: 0;
+    background-color: #1A1A1A;
+    box-shadow: 0 .5rem 1rem rgba(51, 51, 51, 0.15);
+    z-index: 999;
+}
+
+#proyectos {
+    z-index: 0;
 }
 
 @media screen and (min-width:577px) {}
@@ -217,4 +237,6 @@ text-align: center;
     .skillsIdiomaH3 {
         text-align: left;
     }
+
+   
 }
