@@ -76,6 +76,7 @@ h3 {
     font-size: 1.3rem;
     text-align: center;
 }
+
 .skillsIdiomaP {
    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -114,6 +115,45 @@ h3 {
     background-color: #1A1A1A;
 }
 
+/* CARDS */
+
+.colorCard {
+    color: whitesmoke;
+    background-color: #1A1A1A;
+    border: none;
+    
+}
+
+.h3Card {
+    color: #e4e4e4;
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+    text-align: left;
+    text-transform: none;
+      
+}
+
+.cajaImagenCard {
+    border: 0.2rem solid #ffffff;
+    background-color: #e4e4e4;
+    box-shadow: 0 .5rem 1rem rgba(168, 168, 168, 0.15)
+}
+
+.aCard:hover {
+    opacity: 50%;
+    background-color: #1A1A1A;
+    border-color: transparent;
+}
+
+.spanSubCard {
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 300;
+    word-spacing: 1rem;
+    padding: 0.1rem;
+}
+
 .bgFooter {
     background-color: #e4e4e4;
 }
@@ -133,6 +173,10 @@ text-align: center;
     width: 25px;
     height: 25px;
 }
-@media screen and (min-width:577px) {}
+
+@media screen and (min-width:577px) {
+
+   
+}
 
 @media screen and (min-width:993px){}
