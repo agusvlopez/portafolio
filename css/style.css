@@ -35,7 +35,6 @@ nav {
 }
 
 .lineaVertical {
-   
     height: fit-content;
     border-right: 2px solid #e4e4e4;
 }
@@ -43,6 +42,7 @@ nav {
 h1 {
     font-size: 2.7rem;
     margin: 0;
+    padding-bottom: 2rem;
 }
 
 .liSkillsHard {
@@ -72,10 +72,7 @@ h3 {
     text-align: center;
 }
 
-.skillsIdiomaH3 {
-    font-size: 1.3rem;
-    text-align: center;
-}
+
 
 .skillsIdiomaP {
    font-family: 'Montserrat', sans-serif;
@@ -93,7 +90,7 @@ h3 {
 }
 .nombrePortada {
     font-weight: 300;
-    line-height: 1.8rem;
+    line-height: 2.2rem;
 }
 
 .apellidoPortada {
@@ -102,7 +99,7 @@ h3 {
 }
 
 .descripcionPortada {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     line-height: 1.3rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -174,9 +171,50 @@ text-align: center;
     height: 25px;
 }
 
-@media screen and (min-width:577px) {
+@media screen and (min-width:577px) {}
 
-   
+@media screen and (min-width:993px){
+
+    .rowAcercaDeMi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+    }
+   h2 {
+        font-size: 2.3rem;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        padding-bottom: 6.5rem;
+        padding-top: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    .descripcionPortada {
+        font-size: 1rem;
+    }
+
+    .liSkillsHard {
+        font-size: 1.1rem;
+    }
+
+    .liSkillsSoft {
+        font-size: 1.1rem;
+    }
+
+    .rowSkills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skillsSoftH3  {
+        text-align: left;
+    }
+    .skillsIdiomaH3 {
+        text-align: left;
+    }
 }
-
-@media screen and (min-width:993px){}
