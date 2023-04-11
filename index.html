@@ -97,23 +97,27 @@
                     </ul>
                 </div>
             </div>
-            <div class="rowSkills row">
-            <div class="mt-4 col-lg-6 p-2">
-                <h3 class="mb-3 skillsSoftH3"><span lang="en">Soft</span></h3>
-                <div class=" p-0">
+            <div class="rowSkills row space-around">
+            <div class="mt-4 col-md-6 p-2">
+                <h3 class="mb-2 skillsSoftH3"><span lang="en">Soft</span></h3>
+                <div>
                     <ul class="p-0">
-                        <li class="mb-1 pb-1 liSkillsSoft">Autodidacta</li>
-                        <li class="mb-1 pb-1 liSkillsSoft"><span lang="en">Reflexiva</span></li>
-                        <li class="mb-1 pb-1 liSkillsSoft">Trabajo en equipo</li>
-                        <li class="mb-1 pb-1 liSkillsSoft">Flexible</li>                        
+                        <div class="d-md-flex">
+                            <li class="p-md-2 mb-1 pb-1 liSkillsSoft">Autodidacta</li>
+                            <li class="p-md-2 mb-1 pb-1 liSkillsSoft"><span lang="en">Reflexiva</span></li>
+                        </div>
+                        <div class="d-md-flex">
+                        <li class="p-md-2 mb-1 pb-1 liSkillsSoft">Trabajo en equipo</li>
+                        <li class="p-md-2 mb-1 pb-1 liSkillsSoft">Flexible</li> 
+                        </div>                       
                     </ul>
                 </div>
             </div>
             
-            <div class="mt-4 col-lg-6 p-2">
+            <div class="mt-4 col-md-4 p-2">
                 <h3 class="skillsIdiomaH3 mb-3"><span lang="en">Idiomas</span></h3>
-                <p class="skillsIdiomaP">Inglés <span class="skillsIdiomaSpan">Avanzado</span></p>
-                <p class="skillsIdiomaP">Español <span class="skillsIdiomaSpan">Nativo</span></p>
+                <p class="p-md-2 mb-1 pb-1 skillsIdiomaP">Inglés <span class="skillsIdiomaSpan">Avanzado</span></p>
+                <p class="p-md-2 mb-1 pb-1 skillsIdiomaP">Español <span class="skillsIdiomaSpan">Nativo</span></p>
             </div>
             </div>
         </section>
@@ -125,7 +129,7 @@
 
             <div class="d-flex flex-wrap justify-content-center" id="contenedorCards">
             
-                <div v-if="item.enable" v-for="item in imagenes" class="card colorCard mb-3 m-sm-1 m-lg-3 rounded-0 mx-auto" style="max-width: 20rem;">
+                <div v-if="item.enable" v-for="item in imagenes" class="card colorCard p-2 mb-3 m-sm-1 m-lg-3 rounded-0 mx-auto" style="max-width: 20rem;">
                     <div class="cajaImagenCard rounded-1 aCard">
                         <a class="aCard" :href="item.href">
                             <img :src="item.src" class="card-img-top shadow img-fluid rounded-1 aCard" :alt= "item.titulo">

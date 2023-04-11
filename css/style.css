@@ -56,6 +56,7 @@ h1 {
 .liSkillsSoft {
     list-style: none;
     font-size: 0.9rem;
+    margin-right: 1rem;
 }
 
 h2 {
@@ -191,17 +192,31 @@ text-align: center;
     z-index: 0;
 }
 
-@media screen and (min-width:577px) {}
+@media screen and (min-width:577px) {
+    .rowSkills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skillsSoftH3  {
+        padding-left: 0.5rem;
+        text-align: left;
+    }
+    .skillsIdiomaH3 {
+        text-align: left;
+    }
+}
 
 @media screen and (min-width:993px){
 
     .rowAcercaDeMi {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         padding-bottom: 5rem;
     }
-   h2 {
+
+    h2 {
         font-size: 2.3rem;
     }
     
@@ -226,17 +241,4 @@ text-align: center;
         font-size: 1.1rem;
     }
 
-    .rowSkills {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .skillsSoftH3  {
-        text-align: left;
-    }
-    .skillsIdiomaH3 {
-        text-align: left;
-    }
-
-   
 }
