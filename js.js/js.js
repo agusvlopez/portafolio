@@ -7,6 +7,7 @@ const app = new Vue ({
             {href: "https://agusvlopez.github.io/nintendo/" , src: "img/proyectos/nintendo.png" , titulo: "One Page de Nintendo", sub: "Html Css Responsive", enable: true},
             {href: "https://agustina783405.invisionapp.com/console/share/Q4B5UNHY9KW/977181096" , src: "img/proyectos/yoga.png" , titulo: "Prototipo Ecommerce de cursos de Yoga", sub: "Prototipo Wireframing Adobe Illustrator UX/UI", enable: true},
             {href: "https://agusvlopez.github.io/disk-list/" , src: "img/proyectos/disk-list.png" , titulo: "Lista de discos con Js", sub: "Javascript Html Css", enable: true},
+            {href: "https://api-weather-theta.vercel.app/" , src: "img/proyectos/api.png" , titulo: "Consulta del clima con API", sub: "Javascript Html Css API", enable: true},
         ],
     },
     
